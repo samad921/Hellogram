@@ -1,8 +1,8 @@
 class PostsController < ApplicationController
 
 def index  
-end
-
+ @posts = Post.all
+end 
 def new  
     @post = Post.new
 end
